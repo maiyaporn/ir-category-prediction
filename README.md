@@ -1,6 +1,6 @@
 # Categories Prediction
 Information Retrieval Final Project (IUB 2014)
-====================================================
+
 ## Problem
 How can we predict a restaurant's categories from a given review text?
 
