@@ -1,0 +1,38 @@
+Note
+--------------------------------
+Business 42153
+Review 1125458
+
+Select only restaurant businesses from business object 
+- 14303 businesses
+- 706646 reviews
+- 2141 categories
+Remove restaurant with only 'Restaurants' in Categories 
+- 223 restaurants
+Keep only restaurants with tags other than 'Restaurants'
+- 14080 restaurants
+- 2140 categories
+Remove 'Restaurants' tag from categories
+- 2140 categories
+Group restaurant by categories
+Filter categories with less than 10 restaurants in group
+Remove restaurant in filter-out categories
+- 10595 restaurants
+- 152 categories
+Join with review to get text
+- 469749 reviews
+- 10562 restaurants
+- 152 categories
+Group by categories
+
+
+Data Statistic
+Reviews:
+Restaurants: 14080
+Users:
+Categories: 2140
+
+Dictionary
+ - 189378 unique tokens, keeping 29212 tokens which were in no less than 5 and no more than 106 (=70.0%) documents
+ - 29212 unique tokens: [u'fawn', u'mid-week', u'individual-sized', u'*best*', u'clotted']...)
+ - Saved 152x29212 matrix, density=14.397% (639271/4440224)
